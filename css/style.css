@@ -28,7 +28,7 @@ header{
   background-color: white;
   height:250px;
   width:200px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 5px 5px 5px 2px #8AACB7;
 }
 /* posiziono i box sulla riga */
@@ -54,15 +54,15 @@ header{
   position:absolute;
   height:250px;
   width:200px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .fronte-carta{
   position:absolute;
   top:0;
   background-color: white;
-  height:250px;
+  height:200px;
   width:200px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 /* effetto carta che gira */
 .box:hover .retro-carta{
@@ -74,7 +74,7 @@ header{
   color:#E67919;
   font-size: 40px;
   position:absolute;
-  bottom:12%;
+  bottom:5px;
   width:200px;
   text-align: center;
 }
