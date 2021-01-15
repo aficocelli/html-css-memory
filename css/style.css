@@ -9,6 +9,7 @@ body{
 /* formattazione titolo principale */
 header{
   text-align: center;
+  margin-bottom: 40px;
 }
 .titolo-principale{
   font-family: 'Nerko One', cursive;
@@ -18,16 +19,17 @@ header{
 /* struttura del main provvisoria*/
 .conteiner{
   background-color: red;
-  width:800px;
+  width:860px;
   margin:auto;
   position:relative;
 }
 /* trasformo i box in absolute*/
 .conteiner .box{
-  background-color: green;
-  height:200px;
+  background-color: white;
+  height:250px;
   width:200px;
   border:1px solid black;
+
 }
 /* posiziono i box sulla riga */
 .box-1, .box-2, .box-3{
@@ -36,12 +38,34 @@ header{
 }
 
 .box-1{
-  left:200px;
+  left:220px;
 }
 
 .box-2{
-  left:400px;
+  left:440px;
 }
 .box-3{
-  left:600px;
+  left:660px;
+}
+
+/* inserimento immagini */
+
+.retro-carta{
+  position:absolute;
+  height:250px;
+  width:200px;
+  
+}
+.box:hover .retro-carta{
+
+  display:none;
+
+}
+
+.fronte-carta{
+  position:absolute;
+  top:0;
+  background-color: white;
+  height:250px;
+  width:200px;
 }
