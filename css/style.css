@@ -18,10 +18,10 @@ header{
 }
 /* struttura del main provvisoria*/
 .conteiner{
-  background-color: red;
   width:860px;
   margin:auto;
   position:relative;
+  margin-bottom: 20px;
 }
 /* trasformo i box in absolute*/
 .conteiner .box{
@@ -29,6 +29,7 @@ header{
   height:250px;
   width:200px;
   border:1px solid black;
+
 
 }
 /* posiziono i box sulla riga */
@@ -54,18 +55,15 @@ header{
   position:absolute;
   height:250px;
   width:200px;
-  
 }
-.box:hover .retro-carta{
-
-  display:none;
-
-}
-
 .fronte-carta{
   position:absolute;
   top:0;
   background-color: white;
   height:250px;
   width:200px;
+}
+/* effetto carta che gira */
+.box:hover .retro-carta{
+  display:none;
 }
