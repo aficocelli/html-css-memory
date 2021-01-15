@@ -5,6 +5,7 @@
 }
 body{
   background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
 }
 /* formattazione titolo principale */
 header{
@@ -12,7 +13,6 @@ header{
   margin-bottom: 40px;
 }
 .titolo-principale{
-  font-family: 'Nerko One', cursive;
   font-size: 60px;
   color:#FFFFFF;
 }
@@ -66,4 +66,14 @@ header{
 /* effetto carta che gira */
 .box:hover .retro-carta{
   display:none;
+}
+
+/* inserimento nome carta */
+.nome-carta{
+  color:#E67919;
+  font-size: 40px;
+  position:absolute;
+  bottom:15%;
+  width:200px;
+  text-align: center;
 }
