@@ -1,1 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ADD8E6;
+}
+header{
+  text-align: center;
+}
 
+.titolo-principale{
+  font-family: 'Nerko One', cursive;
+  font-size: 60px;
+  color:#FFFFFF;
+}
