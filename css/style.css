@@ -15,6 +15,7 @@ header{
 .titolo-principale{
   font-size: 60px;
   color:#FFFFFF;
+  text-shadow: 5px 5px 10px #8AACB7;
 }
 /* struttura del main provvisoria*/
 .conteiner{
